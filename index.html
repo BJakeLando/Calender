@@ -21,6 +21,10 @@
             <button id="hideTask">Task info</button>
         </section>
 
+        <div id="taskList">
+            <!-- JS will render html here -->
+        </div>
+
         <section class="info">
             <h3>Task Information</h3>
 
@@ -34,13 +38,18 @@
                         class="my-controlist-group-item">  <label>Important: </label>
                         <i id="iImportant" class=" my-icon far fa-star"></i><input type="text"></li>
 
-                        <li class="my-control list-group-item list-group-item-primary">Title: </li>
-                        <li class="my-control list-group-item list-group-item-secondary">Description: </li>
-                        <li class="my-control list-group-item list-group-item-success">Due Date: </li>
-                        <li class="my-control list-group-item list-group-item-danger">Tag: </li>
-                        <li class="my-control list-group-item list-group-item-warning">Color: </li>
+                        <li class="my-control list-group-item list-group-item-primary">Title: <input type="text" id="txtTitle"></li>
+                        <li class="my-control list-group-item list-group-item-secondary">Description: <textarea rows="3" id ="txtDescription"></textarea></li>
+                        <li class="my-control list-group-item list-group-item-success">Due Date: <input type="datetime-local" id="txtDueDate"></li>
+                        <li class="my-control list-group-item list-group-item-danger">Tag: <input type="text" id="txtTag"></li>
+                        <li class="my-control list-group-item list-group-item-warning">Color: <input class="no-padding" type="color" id="txtColor"></li>
                         <li class="my-controllist-group-item list-group-item-info">Category: </li>
-                        <li class="my-control list-group-item list-group-item-light">A simple light list group item</li>
+                        <li class="my-control list-group-item list-group-item-light"><select  id ="txtCategory">
+                            <option value="work">Work</option>
+                            <option value="home">Home</option>
+                            <option value="family">Family</option>
+                            <option value="personal">personal</option>
+                        </select></li>
                       </ul>
                         <div class="my-control">
                         <button id="btnSave" class="btn-save">Save Task</button>
@@ -61,6 +70,7 @@
   src="https://code.jquery.com/jquery-3.6.1.min.js"
   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
   crossorigin="anonymous"></script>
+    <script src="./scripts/task.js"></script>
     <script src="./scripts/script.js"></script>
 </body>
 
