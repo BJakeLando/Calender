@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    display: flex;
+}
+h1 {
+    background-color: #212121;
+    color:white;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+
+}
+
+.container{
+    display: flex;
+    background-color:rgb(117, 161, 126)
+}
+
+.container .list{
+    flex: 3;
+}
+.container .info{
+    flex: 1;
+    background-color: aquamarine;
+    padding: 10px 20px;
+    
+}
+
+.my-control {
+    margin-bottom: 10px;
+    display:inline;
+    text-align: left
+}
+
+.my-control label {
+    display: inline-block;
+    width: 80px;
+    text-align: left; 
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: serif;
+   
+}
+
+.my-control input {
+    padding: 3px 5px;
+    margin-left: 5px;
+    width: 100%
+}
+.my-icon{
+    font-size: 35px;
+    color: rgb(161, 117, 117);
+    cursor: pointer;
+}
+
+.my-icon.fas{
+    color: rgb(219, 16, 16);
+}
+
+#btnSave{
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
