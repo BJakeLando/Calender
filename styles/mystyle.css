@@ -1,114 +1,105 @@
-*{
-    margin:0;
-    display: flex;
+* {
+  margin: 0;
 }
 h1 {
-    background-color: #212121;
-    color:white;
-    margin: 0;
-    padding: 5px 0;
-    text-align: center;
-
+  background-color: #212121;
+  color: white;
+  margin: 0;
+  padding: 5px 0;
+  text-align: center;
 }
 
-.container{
-    display: flex;
-    background-color:rgb(117, 161, 126);
-    background-size: cover;
+.container {
+  display: flex;
+  background-color: rgb(117, 161, 126);
+  background-size: cover;
 }
 
-.container .list{
-    flex: 3;
+.container .list {
+  flex: 3;
 }
-.container .info{
-    flex: 1;
-    background-color: aquamarine;
-    padding: 10px 20px;
-    
+.container .info {
+  flex: 1;
+  background-color: aquamarine;
+  padding: 10px 20px;
 }
 
 .my-control {
-    margin-bottom: 10px;
-    display:inline;
-    text-align: left
+  margin-bottom: 10px;
+  display: inline;
+  text-align: left;
 }
 
 .my-control label {
-    display: inline-block;
-    width: 80px;
-    text-align: left; 
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-family: serif;
-   
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: serif;
 }
 
 .my-control input,
 .my-control textarea,
 .mycontrol select {
-    padding: 3px 5px;
-    margin-left: 5px;
-    width: 100%
+  padding: 3px 5px;
+  margin-left: 5px;
+  width: 100%;
 }
-.my-icon{
-    font-size: 35px;
-    color: rgb(161, 117, 117);
-    cursor: pointer;
-}
-
-.my-icon.fas{
-    color: rgb(219, 16, 16);
+.my-icon {
+  font-size: 35px;
+  color: rgb(161, 117, 117);
+  cursor: pointer;
 }
 
-#btnSave{
-    background-color: lightblue;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 50%;
-    
+.my-icon.fas {
+  color: rgb(219, 16, 16);
 }
 
-.no-padding{
-    padding: 0 !important;
-}
-.task{
-    border:1px solid red;
-    margin-bottom: 20px;
-    padding: 5px 10px;
-    background-color: gray;
-    display:flex;
-
-
+#btnSave {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 50%;
 }
 
-.task:hover{
-    border-left: 5px solid yellowgreen;
-    padding-left: 1px;
+.no-padding {
+  padding: 0 !important;
 }
-#task-header{
-    flex: 3;
-    display: inline-block;
-    font-size: 16px;
-
-}
-
-#task-header h3{
-    margin: 0 0 5px 0;
-    color: white;
+.task {
+  border: 1px solid red;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background-color: gray;
+  display: flex;
 }
 
-
-#taskDate{
-    flex:1;
-    font-size: 18px;
-    color: white;
-    text-decoration: underline;
-    font-family: 'Courier New', Courier, monospace;
+.task:hover {
+  border-left: 5px solid yellowgreen;
+  padding-left: 1px;
+}
+#task-header {
+  flex: 3;
+  display: inline-block;
+  font-size: 16px;
 }
 
-#taskCategory{
-    flex:1;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#task-header h3 {
+  margin: 0 0 5px 0;
+  color: white;
+}
+
+#taskDate {
+  flex: 1;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#taskCategory {
+  flex: 1;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
